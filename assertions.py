@@ -1,4 +1,4 @@
 def withdraw(balance, amount):
     if amount > balance:
-        return balance
+        raise ValueError("Not enough money.")
     return balance - amount
