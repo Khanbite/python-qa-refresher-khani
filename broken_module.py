@@ -1,2 +1,2 @@
 def is_even(number):
-    return number % 2 == 1
+    return number % 2 == 0
